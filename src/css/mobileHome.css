@@ -1,0 +1,31 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+.mobileHomePage {
+    /* background-color: grey; */
+    background-image: url('../images/background.jpeg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 85vh;
+    width: 100%;
+    box-shadow: inset 1px 1px 3px 0 #00000070;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

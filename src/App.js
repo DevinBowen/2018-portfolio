@@ -5,10 +5,10 @@ import routes from './routes';
 class App extends Component {
   render() {
     return (
-      <div className="">
+      <div className="page">
         <nav className="mobileNav">
-          <div>one</div>
-          <div>two</div>
+          <div className="logo">logo</div>
+          <div className="hamMenu">ham</div>
         </nav>
         {routes}
       </div>
