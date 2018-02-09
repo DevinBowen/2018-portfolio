@@ -1,5 +1,13 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+h2 {
+    font-size: 15px;
+}
 .mobileHomePage {
     /* background-color: grey; */
     background-image: url('../images/background.jpeg');
@@ -10,9 +18,36 @@
     width: 100%;
     box-shadow: inset 1px 1px 3px 0 #00000070;
 }
+.rotate {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 145px;
+    left:-139px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 600;
+
+}
+.bio {
+    height: 100%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: radial-gradient(#ffc374, #b87b2d);
+    padding: 10px;
+    padding-top: 12px;
+}
+.bio img {
+    width: 40%;
+    image-orientation: from-image;
+    margin: 5px;
+    float: left;
+    border-top-left-radius: 10px;
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+.bio {
+    display: none;
+}
 }
 
 /* // Medium devices (tablets, 768px and up) */

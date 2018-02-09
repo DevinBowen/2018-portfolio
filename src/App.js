@@ -7,8 +7,8 @@ class App extends Component {
     return (
       <div className="page">
         <nav className="mobileNav">
-          <div className="logo">logo</div>
-          <div className="hamMenu">ham</div>
+          <div className="logo"><img src={require("./images/logo.png")} alt=""/></div>
+          {/* <div className="hamMenu"><div className="hamButton"><div className="inside">MENU</div></div></div> */}
         </nav>
         {routes}
       </div>
